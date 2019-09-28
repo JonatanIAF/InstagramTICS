@@ -1,26 +1,25 @@
 <template>
   <div id="app">
     <div id="nav">
-      <Navigation/>
+      <Navigation />
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
 <script>
-import Navigation from '@/components/layout/Navigation'
+import Navigation from "@/components/layout/Navigation";
 export default {
   components: {
     Navigation
   }
-}
+};
 </script>
 
 
 <style lang="scss">
-
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -38,6 +37,5 @@ export default {
 #nav a.router-link-exact-active {
   color: #42b983;
 }
-  @import './scss/App.scss';
-
+@import "./scss/App.scss";
 </style>
